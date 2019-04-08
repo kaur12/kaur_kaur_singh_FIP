@@ -178,22 +178,24 @@ h2, h3
 
 #Info h2
 {
-	font-size: 24px;
+	font-size: 20px;
 	margin-bottom: 15px;
+	margin-top: 10px;
 }
 
 #Info h3
 {
-	font-size: 18px;
+	font-size: 16px;
 	letter-spacing: .35px;
-	line-height: 18px;
+	line-height: 15px;
+	font-style: italic;
 }
 
 #Info p
 {
 	color: #4A4A4A;
-	font-size: 16px;
-	margin-top: 10px;
+	font-size: 14px;
+	margin-top: 15px;
 	margin-bottom: 15px;
 	line-height: 20px;
 }
@@ -203,25 +205,31 @@ h2, h3
 	font-style: italic;
 }
 
-.welcomeCon
+
+.Image1
 {
-	max-width: 400px;
+	width: 400px;
+	height: 327px;
+	margin-bottom: 10px;
+	box-shadow: 10px 10px 30px grey;
+}
+
+
+.Text1
+{
+	margin: 0 auto;
 }
 
 .Text1 h2
 {
-	font-size: 24px;
-	margin-top: 15px;
-	margin-bottom: 10px;
-	letter-spacing: 1px;
-	line-height: 20px;
-	padding-left: 10px;
+	font-size: 20px;
 	font-weight: bold;
+	margin-bottom: 10px;
 }
 
 .Text1 h3
 {
-	font-size: 18px;
+	font-size: 16px;
 	margin-bottom: 10px;
 	padding-left: 10px;
 	font-style: italic;
@@ -230,12 +238,12 @@ h2, h3
 
 .Text1 p
 {
-	font-size: 16px;
+	font-size: 14px;
 	word-spacing: 1.5px;
 	margin-bottom: 20px;
 	line-height: 20px;
 	background: rgba(176,183,155, 0.5);
-	padding: 10px;
+	padding: 10px;	
 	color: #4A4A4A;
 }
 
@@ -283,7 +291,7 @@ h2, h3
 
 .rods p
 {
-	font-size: 16px;
+	font-size: 14px;
 	word-spacing: 1.5px;
 	margin-bottom: 20px;
 	line-height: 20px;
@@ -298,6 +306,13 @@ h2, h3
 	border-radius: 10px;
 }
 
+.Image2 img
+{
+	width: 400px;
+	border: 2px solid black;
+	box-shadow: 10px 10px 30px grey;
+}
+
 .Text2
 {
 	margin: 0 auto;
@@ -305,14 +320,14 @@ h2, h3
 
 .Text2 h2
 {
-	font-size: 22px;
+	font-size: 20px;
 	font-weight: bold;
 	margin-bottom: 10px;
 }
 
 .Text2 h3
 {
-	font-size: 18px;
+	font-size: 16px;
 	font-style: italic;
 	margin-top: 10px;
 	color: #D6A867;
@@ -321,7 +336,7 @@ h2, h3
 
 .Text2 p
 {
-	font-size: 16px;
+	font-size: 14px;
 	word-spacing: 1.5px;
 	margin-bottom: 20px;
 	line-height: 20px;
@@ -334,10 +349,162 @@ h2, h3
 
 /*  tablet */
 @media screen and (min-width: 400px) {
+	#Info h2
+	{
+		font-size: 22px;
+	}
+	
+	#Info h3
+	{
+		font-size: 18px;
+	}
+	
+	#Info p
+	{
+		font-size: 16px;
+	}
+	
+	.Text1 h2
+	{
+		font-size: 22px;
+	}
+	
+	.Text1 h3
+	{
+		font-size: 18px;
+	}
+	
+	.Text1 p
+	{
+		font-size: 16px;
+	}
+	
+	.rods h2
+	{
+		font-size: 22px;
+	}
+	
+	.rods p
+	{
+		font-size: 16px;
+	}
+	
+	.Text2 h2
+	{
+		font-size: 22px;
+	}
+	
+	.Text2 h3
+	{
+		font-size: 18px;
+	}
+	
+	.Text2 p
+	{
+		font-size: 16px;
+	}
+}
 
+@media screen and (min-width: 620px) {
+	#Info h2
+	{
+		font-size: 32px;
+	}
+	
+	#Info h3
+	{
+		font-size: 22px;
+	}
+	
+	#Info p
+	{
+		width: 60%;
+	}
+}
 
+@media screen and (min-width: 760px) {
+	
+	.welcomeCon
+	{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-evenly;
+	}
+	
+	.Image1
+	{
+		width: 300px;
+	}
+	
+	.Text1
+	{
+		margin-left: 300px;
+	}
+	
+	.band
+	{
+		display: flex;
+		justify-content: space-evenly
+	}
+	
+	.rods
+	{
+		display: flex;
+		flex-direction: column;
+		justify-content: space-evenly;
+		margin-right: auto;
+	}
+	
+	.rods:last-child
+	{
+		margin-right: 0;
+	}
+	
+	.rods h2
+	{
+		font-size: 18px;
+	}
+	
+	.rods img
+	{
+		margin-right: auto;
+		margin-bottom: 10px;
+	}
+	
+	.rods h2
+	{
+		text-align: center;
+		margin-top: 10px;
+		
+	}
+	.rods p
+	{
+		font-size: 14px;
+	}
+	
+	.rods a
+	{
+		font-size: 14px;
+	}
+	
+	.merchandise
+	{
+		display: flex;
+	}
+	
+	.Text2
+	{
+		margin-right: 300px;
+	}
 
+	
+	
+	
+	
+}
 
+	
+	
 
 
 
