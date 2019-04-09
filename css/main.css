@@ -208,7 +208,6 @@ h2, h3
 
 .Image1
 {
-	width: 400px;
 	height: 327px;
 	margin-bottom: 10px;
 	box-shadow: 10px 10px 30px grey;
@@ -347,6 +346,153 @@ h2, h3
 
 
 
+/*  about */
+/*  mobile */
+#aboutText
+{
+	margin: 0 auto;
+}
+
+#aboutText h2
+{
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	letter-spacing: 0.8px;
+}
+
+#aboutText h3
+{
+	font-size: 16px;
+	color: #D6A867;
+	font-style: italic;
+	letter-spacing: 0.2px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#aboutText p
+{
+	font-size: 14px;
+	word-spacing: 1.5px;
+	margin-bottom: 20px;
+	line-height: 20px;
+	background: rgba(176,183,155, 0.5);
+	padding: 10px;	
+	color: #4A4A4A;
+}
+
+.moreAbout
+{
+	margin: 0 auto;  
+}
+
+.moreAbout img
+{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 400px;
+	border: 2px solid black;
+}
+
+.moreAbout h2
+{
+	font-size: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	letter-spacing: 0.8px;
+	font-weight: bold;
+}
+
+.moreAbout p
+{
+	font-size: 14px;
+	word-spacing: 1.5px;
+	margin-bottom: 20px;
+	line-height: 20px;
+	background: rgba(176,183,155, 0.5);
+	padding: 10px;	
+	margin-top: 10px;
+	color: #4A4A4A;
+}
+
+.businesses
+{
+	margin: 0 auto;
+}
+
+#bsHd
+{
+	background-color: #D6A867;
+	padding: 10px;
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+	margin: 0 auto 10px auto;
+}
+
+#bsHd:hover
+{
+	background-color: #7E8C5D;
+	color: #E3BC88;
+}
+
+.businessCon h3
+{
+	font-size: 16px;
+	color: #D6A867;
+	font-style: italic;
+	letter-spacing: 0.2px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.business
+{
+	margin: 10px auto 10px auto;
+}
+
+.business img
+{
+	float: left;
+	width: 200px;
+	border: 2px solid brown;
+	margin: 10px;
+}
+
+.business h2
+{
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 10px;
+	letter-spacing: 0.8px;
+	margin-left: 10px;
+	margin-top: 10px;
+	line-height: 30px;
+	
+}
+
+.business p
+{
+	font-size: 14px;
+	word-spacing: 1.5px;
+	margin-bottom: 20px;
+	line-height: 30px;
+	margin-top: 10px;
+	color: #B9C979;
+	margin-left: 10px;
+}
+
+.business a
+{
+	color: #D6A867;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+
+
 /*  tablet */
 @media screen and (min-width: 400px) {
 	#Info h2
@@ -403,6 +549,49 @@ h2, h3
 	{
 		font-size: 16px;
 	}
+	
+/* 	about */
+	
+	#aboutText h2
+	{
+		font-size: 22px;
+	}
+	
+	#aboutText h3
+	{
+		font-size: 18px;
+	}
+	
+	#aboutText p
+	{
+		font-size: 16px;
+	}
+	
+	.moreAbout h2
+	{
+		font-size: 22px;
+	}
+	
+	.moreAbout p
+	{
+		font-size: 16px;
+	}
+	
+	.businessCon h3
+	{
+		font-size: 18px;
+	}
+	
+	
+	.business h2
+	{
+		font-size: 22px;
+	}
+	
+	.business p
+	{
+		font-size: 16px;
+	}
 }
 
 @media screen and (min-width: 620px) {
@@ -420,20 +609,37 @@ h2, h3
 	{
 		width: 60%;
 	}
+	
+	#aboutText h2
+	{
+		font-size: 24px;
+	}
+	
+	.business h2
+	{
+		margin-top: 10px;
+		margin-bottom: 30px;
+	}
+	.business p
+	{
+		line-height: 30px;
+		margin-top: 20px;
+	}
+	
 }
 
 @media screen and (min-width: 760px) {
 	
-	.welcomeCon
+	#welcomeCon
 	{
 		display: flex;
 		flex-direction: row;
-		justify-content: space-evenly;
+		justify-content: space-between;
 	}
 	
 	.Image1
 	{
-		width: 300px;
+		width: 100%;
 	}
 	
 	.Text1
@@ -496,11 +702,43 @@ h2, h3
 	{
 		margin-right: 300px;
 	}
-
+	
+	#MainDiv
+	{
+		background-image: url(../images/river_bg2.jpg) center no-repeat;
+	}
+	
+	.moreAbout
+	{
+		display: flex;
+	}
+	
+	.moreAbout img
+	{
+		margin-top: 50px;
+	}
+	
+	.Text3
+	{
+		max-width: 60%;
+		margin-left: 10px;
+		margin-right: auto;
+	}
+	
+	.business h2
+	{
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
 	
 	
 	
 	
+	
+	
+	
+	
+	
 }
 
 	
@@ -509,146 +747,3 @@ h2, h3
 
 
 
-
-/*  about */
-/*  mobile */
-#aboutText
-{
-	margin: 0 auto;
-}
-
-#aboutText h2
-{
-	font-size: 24px;
-	font-weight: bold;
-	margin-top: 10px;
-	margin-bottom: 10px;
-	letter-spacing: 0.8px;
-}
-
-#aboutText h3
-{
-	font-size: 18px;
-	color: #D6A867;
-	font-style: italic;
-	letter-spacing: 0.2px;
-	margin-top: 10px;
-	margin-bottom: 10px;
-}
-
-#aboutText p
-{
-	font-size: 16px;
-	word-spacing: 1.5px;
-	margin-bottom: 20px;
-	line-height: 20px;
-	background: rgba(176,183,155, 0.5);
-	padding: 10px;	
-	color: #4A4A4A;
-}
-
-.moreAbout
-{
-	margin: 0 auto;  
-}
-
-.moreAbout img
-{
-	margin-top: 10px;
-	margin-bottom: 10px;
-	width: 400px;
-	border: 2px solid black;
-}
-
-.moreAbout h2
-{
-	font-size: 20px;
-	margin-top: 10px;
-	margin-bottom: 10px;
-	letter-spacing: 0.8px;
-	font-weight: bold;
-}
-
-.moreAbout p
-{
-	font-size: 16px;
-	word-spacing: 1.5px;
-	margin-bottom: 20px;
-	line-height: 20px;
-	background: rgba(176,183,155, 0.5);
-	padding: 10px;	
-	margin-top: 10px;
-	color: #4A4A4A;
-}
-
-.businesses
-{
-	margin: 0 auto;
-}
-
-#bsHd
-{
-	background-color: #D6A867;
-	padding: 10px;
-	text-align: center;
-	font-size: 20px;
-	font-weight: bold;
-	margin: 0 auto 10px auto;
-}
-
-#bsHd:hover
-{
-	background-color: #7E8C5D;
-	color: #E3BC88;
-}
-
-.businessCon h3
-{
-	font-size: 18px;
-	color: #D6A867;
-	font-style: italic;
-	letter-spacing: 0.2px;
-	margin-top: 10px;
-	margin-bottom: 10px;
-}
-
-.business
-{
-	margin: 10px auto 10px auto;
-}
-
-.business img
-{
-	width: 200px;
-	border: 2px solid brown;
-	margin-left: 10px;
-	margin-top: 10px;
-	margin-bottom: 10px;
-}
-
-.business h2
-{
-	font-size: 20px;
-	font-weight: bold;
-	margin-bottom: 10px;
-	letter-spacing: 0.8px;
-	margin-left: 10px;
-}
-
-.business p
-{
-	font-size: 16px;
-	word-spacing: 1.5px;
-	margin-bottom: 20px;
-	line-height: 20px;
-	margin-top: 10px;
-	color: #B9C979;
-	margin-left: 10px;
-}
-
-.business a
-{
-	color: #D6A867;
-	padding: 10px;
-	border-radius: 10px;
-}
