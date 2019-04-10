@@ -285,7 +285,8 @@ h2, h3
 {
 	font-size: 20px;
 	margin-bottom: 30px;
-	margin-top: 5px;
+	margin-top: 10px;
+	padding-top: 20px;
 }
 
 .rods p
@@ -293,8 +294,9 @@ h2, h3
 	font-size: 14px;
 	word-spacing: 1.5px;
 	margin-bottom: 20px;
-	line-height: 20px;
+	line-height: 30px;
 	margin-top: 10px;
+	padding-top: 10px;
 	color: #9DBD4B;
 }
 
@@ -698,6 +700,8 @@ h2, h3
 		display: flex;
 	}
 	
+/* 	about */
+	
 	.Text2
 	{
 		margin-right: 300px;
@@ -730,6 +734,121 @@ h2, h3
 		padding-top: 30px;
 		padding-bottom: 30px;
 	}
+
+	
+	
+	
+	
+}
+
+
+
+/* desktop */
+/* home */
+@media screen and (min-width: 1024px) {
+	
+	#header
+	{
+		display: flex;
+	}
+	
+	#button
+	{
+		display: none;
+	}
+	
+	#navCon
+	{
+		display: flex;
+		flex-direction: column;
+	}
+	
+	#MainNav
+	{
+		margin-left: auto;
+	}
+	
+	#search
+	{
+		order: -1;
+		margin-top: 0;
+		margin-bottom: 45px;
+	}
+	
+	.logo
+	{
+		order: -1;
+	}
+	
+	#MainNav
+	{
+		margin-left: auto;
+	}
+	
+	#search
+	{
+		order: -1;
+		margin-top: 0;
+		margin-bottom: 45px;
+	}
+	
+	#MainNav li
+	{
+		border-bottom: none;
+		display: inline;
+		margin-left: 20px;
+	}
+	
+	#MainNav li a 
+	{
+		display: inline;
+		padding: 5px 0 5px 0;
+		color: #4E5C1B;
+	}
+	
+	#MainNav li a:hover
+	{
+		color: #D6A867;
+		background-color: #4A4A4A;
+		padding: 5px;
+		border-bottom: 3px solid #D6A867;
+		border-radius: 5px;
+		font-weight: bold;
+	}
+	
+	#MainNav ul li:first-child
+	{
+		border-bottom: none;
+	}
+	
+	#searchForm
+	{
+		justify-content: flex-end;
+	}
+	
+	#traaLogo
+	{
+		display: block;
+		max-width: 160px;
+	}
+	
+	#MainDiv
+	{
+		background-image: url(../images/river_bg1.jpg) no-repeat center;
+	}
+	
+	#welcomeCon img
+	{
+		float: left;
+		margin-right: 20px;
+		max-width: 400px;
+	}
+	
+	.Text1
+	{
+		margin-left: 50px;
+		max-width: 500px;
+	}
 	
 	
 	
@@ -740,7 +859,6 @@ h2, h3
 	
 	
 }
-
 	
 	
 
