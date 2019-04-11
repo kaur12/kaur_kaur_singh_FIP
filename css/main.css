@@ -356,6 +356,34 @@ h2, h3
 	color: #4A4A4A;
 }
 
+.footer
+{
+	max-width: 100%;
+	background-color: #E3BC88;
+	padding: 10px;
+}
+
+.footer h2
+{
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+.footer p
+{
+	font-size: 14px;
+	line-height: 18px;
+}
+
+#bold
+{
+	font-weight: bold;
+}
+
+
+
 
 
 /*  about */
@@ -729,36 +757,34 @@ h2, h3
 	.merchandise
 	{
 		display: flex;
-		flex-direction: row;
-		justify-content: space-between;
 	}
 	
 	.Image2
 	{
 		flex: 1 1 400px;
+		margin-left: auto;
+		max-width: 400px;
 	}
 	
 	.Text2
 	{
 		flex: 1 1 400px;
-		margin-left: 20px;
 	}
 	
 	.Text2 h2
 	{
-		margin-bottom: 5px;;
+		margin-bottom: 10px;
 	}
 	
 	.Text2 h3
 	{
-		margin-bottom: 5px;
+		margin-bottom: 10px;
 	}
 	
 	.Text2 p
 	{
-		font-size: 16px;
-		line-height: 18px;
-		padding: 5px;
+		padding: 10px;
+		line-height: 25px;
 	}
 	
 /* 	about */
@@ -952,16 +978,23 @@ h2, h3
 		font-weight: bold;
 	}
 	
-	.merchandise img
+	.merchandise
+	{
+		display: flex;
+		flex-wrap: wrap;
+	}
+	
+	.Image2
 	{
 		margin-right: 80px;
-		max-width: 400px;
+		flex: 1 1 250px;
+/* 		max-width: 400px; */
 	}
 	
 	.Text2
 	{
 		margin-right: 30px;
-		max-width: 50%;
+		max-width: 45%;
 		margin-left: 80px;
 	}
 	
@@ -981,6 +1014,34 @@ h2, h3
 		line-height: 25px;
 	}
 	
+	.footer
+	{
+		display: flex;
+	}
+	
+	.footerNav
+	{
+		flex: 1 1 250px;
+		margin-left: 100px;
+	}
+	
+	#Commitee_name
+	{
+		flex: 1 1 250px;
+		margin-right: 100px;
+	}
+	
+	.footer h2
+	{
+		font-size: 20px;
+	}
+	
+	.footer p
+	{
+		font-size: 16px;
+		letter-spacing: 0.8px;
+		margin-bottom: 5px;
+	}
 	
 	
 	
