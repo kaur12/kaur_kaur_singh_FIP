@@ -302,7 +302,7 @@ h2, h3
 	line-height: 30px;
 	margin-top: 10px;
 	padding-top: 10px;
-	color: #9DBD4B;
+	color: #97BF39;
 }
 
 .rods a
@@ -856,6 +856,23 @@ h2, h3
 		line-height: 20px;
 	}
 	
+	.footer
+	{
+		display: flex;
+		margin-top: 40px;
+	}
+	
+	.footerNav
+	{
+		flex: 1 1 250px;
+		margin-left: 50px;
+	}
+	
+	#Commitee_name
+	{
+		flex: 1 1 250px;]
+	}
+	
 /* 	about */
 	
 	.Text2
@@ -890,7 +907,7 @@ h2, h3
 		padding-top: 30px;
 		padding-bottom: 30px;
 	}
-
+	
 	
 /* 	past events */
 	
@@ -898,11 +915,13 @@ h2, h3
 	{
 		margin-top: 0;
 		margin-bottom: 15px;
+		font-size: 22px;
 	}
 	
 	#events h3
 	{
 		margin-bottom: 15px;
+		font-size: 18px;
 	}
 	
 	#events p
@@ -1268,14 +1287,15 @@ h2, h3
 	
 	.Image2
 	{
-		margin-right: 80px;
+		margin-right: 50px;
 		flex: 1 1 250px;
+		margin-top: 0;
 /* 		max-width: 400px; */
 	}
 	
 	.Text2
 	{
-		margin-right: 30px;
+		margin-right: 80px;
 		max-width: 45%;
 		margin-left: 80px;
 	}
