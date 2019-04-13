@@ -1418,6 +1418,51 @@ h2, h3
 		margin-right: 30px;
 	}
 	
+/* 	projects */
+
+
+	#traaProjects h2
+	{
+		font-size: 26px;
+		letter-spacing: 0.8;
+		text-align: center;
+	}
+	
+	#traaProjects h3
+	{
+		font-size: 20px;
+		text-align: center;
+	}
+	
+	#traaProjects p
+	{
+		font-size: 16px;
+		line-height: 22px;
+		padding: 15px;
+	}
+	
+	#Project1 h2
+	{
+		font-size: 28px;
+		text-align: center;
+	}
+	
+	#Project1 a
+	{
+		font-size: 18px;
+	}
+	
+	#Project1 img
+	{
+		float: left;
+	}
+	
+	#Project1 p
+	{
+		margin-left: 420px;
+	}
+	
+	
 	
 	
 /* 	contact us */
