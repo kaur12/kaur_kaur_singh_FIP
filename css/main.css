@@ -579,6 +579,155 @@ h2, h3
 }
 
 
+
+/* projects */
+
+#traaProjects
+{
+	margin: 10px;
+}
+
+#traaProjects h2
+{
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 10px;
+	letter-spacing: 0.8px;
+}
+
+#traaProjects h3
+{
+	font-size: 16px;
+	font-style: italic;
+	margin-bottom: 10px;
+	letter-spacing: 0.5px;
+}
+
+#traaProjects p
+{
+	font-size: 14px;
+	background-color: #E3BC88;
+	padding: 10px;
+	margin-left: 0;
+	line-height: 20px;
+	color: #4A4A4A;
+}
+
+#Project1
+{
+	margin: 10px;
+}
+
+#Project1 h2
+{
+	font-size: 18px;
+	letter-spacing: 0.5px;
+	margin-bottom: 10px;
+	margin-top: 20px;
+	font-weight: bold;
+}
+
+#Project1 a
+{
+	font-size: 16px;
+	font-style: italic;
+	color: #E3BC88;
+	letter-spacing: 0.5px;
+	margin-bottom: 10px;
+}
+
+#Project1 img
+{
+	border: 2px solid black;
+	box-shadow: 5px 5px 15px grey;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+#Project1 p
+{
+	background-color: rgba(176,183,155, 0.5);
+	padding: 10px;
+	line-height: 20px;
+	color: #4A4A4A;
+	margin-bottom: 10px;
+}
+
+#read
+{
+	color: #D6A867;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+#Project2
+{
+	margin: 10px;
+}
+
+#Project2 h2
+{
+	font-size: 18px;
+	letter-spacing: 0.5px;
+	margin-bottom: 10px;
+	margin-top: 20px;
+	font-weight: bold;
+}
+
+#Project2 a
+{
+	font-size: 16px;
+	font-style: italic;
+	color: #E3BC88;
+	letter-spacing: 0.5px;
+	margin-bottom: 10px;
+}
+
+#Project2 img
+{
+	border: 2px solid black;
+	box-shadow: 5px 5px 15px grey;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+#Project2 p
+{
+	background-color: rgba(176,183,155, 0.5);
+	padding: 10px;
+	line-height: 20px;
+	color: #4A4A4A;
+	margin-bottom: 10px;
+}
+
+#projectArchives h2
+{
+	background-color: #D6A867;
+	padding: 10px;
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 10px;
+	margin-top: 20px;
+}
+
+#projectArchives h2:hover
+{
+	background-color: #7E8C5D;
+	color: #E3BC88;
+}
+
+#projectArchives a
+{
+	font-size: 18px;
+	font-weight: bold;
+	color: #4A4A4A;
+	background-color: #efefef;
+	padding: 10px;
+	margin: 20px;
+	
+}
+
 /*  contact */
 
 #contactForm
