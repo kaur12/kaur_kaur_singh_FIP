@@ -9,6 +9,11 @@ img, embed, object, video {
   max-width: 100%; 
 }
 
+img:hover
+{
+	box-shadow: 10px 10px 30px grey;
+}
+
 
 /*switch box model*/
 html {
@@ -52,6 +57,12 @@ a
 {
 	font-family: 'Varela Round', sans-serif;
 }
+
+p
+{
+	font-family: 'Varela Round', sans-serif;
+}
+
 
 /*  index  */
 /*  mobile */
@@ -165,6 +176,11 @@ a
 	max-width: 150px;
 }
 
+.logo img:hover
+{
+	box-shadow: none;
+}
+
 #MainDiv
 {
 	background-image: url(../images/river_bg3.jpg);
@@ -221,7 +237,7 @@ a
 .Image1 img
 {
 	border: 2px solid black; 
-	box-shadow: rgba(#ccc,0.8);
+	box-shadow: 5px 5px 15px grey;
 }
 
 
@@ -330,6 +346,11 @@ a
 	box-shadow: 5px 5px 15px grey;
 }
 
+.Image2 img:hover
+{
+	box-shadow: 10px 10px 30px grey;
+}
+
 .Text2
 {
  	margin: 0 auto; 
@@ -369,7 +390,8 @@ a
 	padding: 10px;
 }
 
-.footer h2
+
+.footer h2 
 {
 	font-size: 18px;
 	font-weight: bold;
@@ -383,7 +405,7 @@ a
 	line-height: 18px;
 }
 
-#bold
+.bold
 {
 	font-weight: bold;
 }
@@ -542,6 +564,16 @@ a
 
 /* pastevents */
 
+#MainDivVideo video
+{
+	width: 400px;
+	height: 400px;
+}
+
+#events img:hover
+{
+	box-shadow: 10px 10px 30px grey;
+}
 #events
 {
 	margin-top: 10px;
@@ -650,6 +682,11 @@ a
 	margin-bottom: 20px;
 }
 
+#Project1 img:hover
+{
+	box-shadow: 10px 10px 30px grey;
+}
+
 #Project1 p
 {
 	background-color: rgba(176,183,155, 0.5);
@@ -695,6 +732,11 @@ a
 	box-shadow: 5px 5px 15px grey;
 	margin-top: 10px;
 	margin-bottom: 20px;
+}
+
+#Project2 img:hover
+{
+	box-shadow: 10px 10px 30px grey;
 }
 
 #Project2 p
@@ -746,7 +788,7 @@ a
 	font-size: 20px;
 	font-weight: bold;
 	letter-spacing: 0.8px;
-	margin-block: 10px;
+	margin-bottom: 10px;
 }
 
 #links h3
@@ -1049,6 +1091,12 @@ a
 
 /*  tablet */
 @media screen and (min-width: 400px) {
+	
+	img:hover
+	{
+		box-shadow: 10px 10px 30px grey;
+	}
+	
 	#Info h2
 	{
 		font-size: 22px;
@@ -1182,6 +1230,13 @@ a
 		width: 60%;
 	}
 	
+	#Info img
+	{
+		margin-left: 60%;
+		width: 200px;
+		margin-top: -30px;
+	}
+	
 	#aboutText h2
 	{
 		font-size: 24px;
@@ -1206,6 +1261,14 @@ a
 	{
 		display: flex;
 	}
+	
+	#Info img
+	{
+		margin-left: 70%;
+		width: 200px;
+		margin-top: -30px;
+	}
+	
 	
 	.Image1
 	{
@@ -1332,7 +1395,7 @@ a
 	
 	#Commitee_name
 	{
-		flex: 1 1 250px;]
+		flex: 1 1 250px;
 	}
 	
 /* 	about */
@@ -1373,6 +1436,11 @@ a
 	
 /* 	past events */
 	
+	#MainDivVideo video
+	{
+		width: 760px;
+		height: 400px;
+	}
 	#events h2
 	{
 		margin-top: 0;
@@ -1592,7 +1660,7 @@ a
 	#traaProjects h2
 	{
 		font-size: 26px;
-		letter-spacing: 0.8;
+		letter-spacing: 0.8px;
 		text-align: center;
 	}
 	
@@ -1739,7 +1807,17 @@ a
 	
 	
 	
+	.footerNav
+	{
+		max-width: 60%;
+		margin-left: 20%;
+	}
 	
+	.Commitee_name
+	{
+		max-width: 60%;
+		margin-right: 20%;
+	}
 	
 	
 	
@@ -1750,6 +1828,12 @@ a
 /* desktop */
 /* home */
 @media screen and (min-width: 1200px) {
+	
+	p:hover
+	{
+		background-color: #DEE8BE;
+		color: #cd892a;
+	}
 	
 	#header
 	{
@@ -1856,6 +1940,18 @@ a
 		max-width: 400px;
 	}
 	
+	#Info p
+	{
+		line-height: 30px;
+	}
+	
+	#Info img
+	{
+		margin-left: 70%;
+		width: 200px;
+		margin-top: -30px;
+	}
+	
 	
 	.Text1
 	{
@@ -1938,18 +2034,17 @@ a
 		margin-top: 60px;
 	}
 	
-	.footerNav
+.footerNav
 	{
-		flex: 1 1 400px;
-		margin-left: 100px;
+		max-width: 60%;
+		margin-left: 20%;
 	}
 	
-	#Commitee_name
+	.Commitee_name
 	{
-		flex: 1 1 400px;
-		margin-right: 100px;
+		max-width: 60%;
+		margin-right: 20%;
 	}
-	
 	.footer h2
 	{
 		font-size: 20px;
@@ -1999,6 +2094,123 @@ a
 	}
 	
 	
+	
+/* 	past events */
+	
+	#MainDivVideo video
+	{
+		width: 1200px;
+		height: 400px;
+		max-width: 100%;
+	}
+	
+	#events
+	{
+		display: flex;
+		flex-direction: column;
+	}
+	
+	#Event1
+	{
+		max-width: 80%;
+		margin-left: 10%;
+	}
+	
+	#Event1 p
+	{
+		line-height: 29px;
+		padding: 20px;
+	}
+	
+	#Event2
+	{
+		max-width: 80%;
+		margin-left: 10%;
+	}
+	
+	#Event2 #EventText2
+	{
+		margin-left: -40px;
+	}
+	
+	#EventText2 p
+	{
+		line-height: 30px;
+	}
+	
+	#Event2 img
+	{
+		margin-right: 0px;
+	}
+	
+	#Event3
+	{
+		max-width: 80%;
+		margin-left: 10%;
+	}
+	
+	#EventText3 p
+	{
+		line-height: 22px;
+		padding: 15px;
+	}
+	
+	#Event4
+	{
+		max-width: 80%;
+		margin-left: 10%;
+	}
+	
+	#EventText4
+	{
+		margin-left: -50px;
+	}
+	
+	#EventText4 p
+	{
+		line-height: 26px;
+		padding: 15px;
+	}
+	
+	#Event5
+	{
+		max-width: 80%;
+		margin-left: 10%;
+	}
+	
+	#EventText5 p
+	{
+		line-height: 20px;
+	}
+	
+	#Event6
+	{
+		max-width: 80%;
+		margin-left: 10%;
+	}
+	
+	#EventText6
+	{
+		margin-left: -40px;
+	}
+	
+	#EventText6 p
+	{
+		line-height: 22px;
+		padding: 15px;
+	}
+	
+	#Event7
+	{
+		max-width: 80%;
+		margin-left: 10%;
+	}
+	
+	#EventText7 p
+	{
+		line-height: 30px;
+		padding: 15px;
+	}
 /* 	projects */
 	
 	#traaProjects h2
@@ -2020,11 +2232,23 @@ a
 		margin-bottom: 30px;
 	}
 	
+	#traaProjects p:hover
+	{
+		background-color: #DEE8BE;
+		color: #cd892a;
+	}
+	
 	#projects1-2
 	{
 		display: flex;
 		max-width: 80%;
 		margin-left: 10%;
+	}
+	
+	#projects1-2 p:hover
+	{
+		background-color: #DEE8BE;
+		color: #cd892a;
 	}
 	
 	#Project1
@@ -2111,6 +2335,9 @@ a
 		background-color: #DEE8BE;
 		border: 1px dotted #95B04F;
 		border-radius: 3px;
+		-webkit-transition: width 1s;
+  transition: width 1s;
+		transition-timing-function: ease-in;
 	}
 	
 	#contactInfo
