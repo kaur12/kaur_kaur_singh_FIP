@@ -27,7 +27,7 @@ img {
 
 body
 {
-	font-family: 'latoregular', Helvetica, Arial, sans-serif;
+	font-family: 'Varela Round', sans-serif;
 	background-color: #fff;
 	margin: 0;
 	padding: 0;
@@ -39,12 +39,18 @@ a
   color:#000; 
   text-decoration: none;  
   transition:all .1s linear 0s;
+  font-family: 'Varela Round', sans-serif;
 }
 
 h2, h3
 {
-	font-family: 'lustriaregular', Times, "Times New Roman", serif;
+	font-family: 'Varela Round', sans-serif;
 	color: #4E5C1B;
+}
+
+a
+{
+	font-family: 'Varela Round', sans-serif;
 }
 
 /*  index  */
@@ -725,7 +731,169 @@ h2, h3
 	background-color: #efefef;
 	padding: 10px;
 	margin: 20px;
+}
+
+
+/* links */
+#links
+{
+	margin: 10px;
+	color: #4A4A4A;  
+}
+
+#links h2
+{
+	font-size: 20px;
+	font-weight: bold;
+	letter-spacing: 0.8px;
+	margin-block: 10px;
+}
+
+#links h3
+{
+	font-size: 16px;
+	font-style: italic;
+	color: #D6A867;	
+	margin-bottom: 10px;
+}
+
+#links h4
+{
+	font-size: 18px;
+	color: #4E5C1B;
+	font-weight: bold;
+	text-decoration: underline;
+	margin-bottom: 10px;
+	letter-spacing: 0.8px;
+}
+
+#links a
+{
+	font-size: 18px;
+	color: blue;
+	letter-spacing: 0.6px;
+}
+
+#links p
+{
+	font-size: 14px;
+	line-height: 24px;
+	background-color: rgba(176,183,155, 0.5);
+	padding: 10px;
 	
+}
+
+#Authorities
+{
+	margin: 10px;
+}
+
+#Authorities h2
+{
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 10px;
+	letter-spacing: 0.8px;
+}
+
+#Authorities a
+{
+	font-size: 16px;
+	font-style: italic;
+	color: blue;
+	letter-spacing: 0.3px;
+}
+
+
+#Entities
+{
+	margin: 10px;
+}
+
+#Entities h2
+{
+	font-size: 20px;
+	font-weight: bold;
+	letter-spacing: 0.5px;
+	margin-bottom: 10px;
+}
+
+#Entities a
+{
+	font-size: 16px;
+	color: blue;
+	letter-spacing: 0.3px;
+	line-height: 20px;
+}
+
+#localCenters
+{
+	margin: 10px;
+}
+
+#localCenters h2
+{
+	font-size: 20px;
+	font-weight: bold;
+	letter-spacing: 0.5px;
+	line-height: 26px;
+	margin-bottom: 10px;
+}
+
+#localCenters a
+{
+	font-size: 18px;
+	color: blue;
+	letter-spacing: 0.6px;
+}
+
+#localCenters p
+{
+	font-size: 14px;
+	line-height: 24px;
+	background-color: rgba(176,183,155, 0.5);
+	padding: 10px;
+	color: #4A4A4A;
+	line-height: 26px;
+}
+
+#fishingLinks
+{
+	margin: 10px;
+}
+
+#fishingLinks h2
+{
+	font-size: 20px;
+	font-weight: bold;
+	letter-spacing: 0.5px;
+	margin-bottom: 10px;
+}
+
+#fishingLinks a
+{
+	font-size: 18px;
+	color: blue;
+	letter-spacing: 0.3px;
+}
+
+#fishingLinks p
+{
+	font-size: 14px;
+	line-height: 24px;
+	background-color: #E3BC88;
+	padding: 10px;
+	color: #4A4A4A;
+}
+
+#note
+{
+	font-size: 14px;
+	line-height: 24px;
+	background-color: rgba(176,183,155, 0.5); 
+	color: #4A4A4A;
+	padding: 10px;
+	margin-bottom:30px;
 }
 
 /*  contact */
@@ -1454,13 +1622,57 @@ h2, h3
 	
 	#Project1 img
 	{
-		float: left;
+		margin-right: 0;
 	}
 	
 	#Project1 p
 	{
-		margin-left: 420px;
+		letter-spacing: 0.7px;
+		padding: 15px;
 	}
+	
+	#Project2 h2
+	{
+		font-size: 28px;
+		text-align: center;
+	}
+	
+	#Project2 a
+	{
+		font-size: 18px;
+	}
+	
+	#Project2 img
+	{
+		margin-right: 0;
+	}
+	
+	#Project2 p
+	{
+		letter-spacing: 0.7px;
+		padding: 15px;
+	}
+	
+	#projectArchives h2
+	{
+		font-size: 22px;
+	}
+	
+	#projectArchives a
+	{
+		background-color: #F7E2C8;
+	}
+	
+	#projectArchives a:hover
+	{
+		background: #97BF39;
+		font-size: 22px;
+		font-style: italic;
+		border-radius: 3px;
+		color: #F7E2C8;
+	}
+	
+	
 	
 	
 	
@@ -1750,6 +1962,8 @@ h2, h3
 		margin-bottom: 5px;
 	}
 	
+	
+/* 	about */
 	#gifCon
 	{
 		display: flex;
@@ -1782,6 +1996,95 @@ h2, h3
 		line-height: 22px;
 		padding: 10px;
 		margin-top: 20px;
+	}
+	
+	
+/* 	projects */
+	
+	#traaProjects h2
+	{
+		font-size: 32px;
+	}
+	
+	#traaProjects h3
+	{
+		font-size: 24px;
+		margin-bottom: 20px;
+	}
+	
+	#traaProjects p
+	{
+		font-size: 20px;
+		line-height: 25px;
+		letter-spacing: 0.4px;
+		margin-bottom: 30px;
+	}
+	
+	#projects1-2
+	{
+		display: flex;
+		max-width: 80%;
+		margin-left: 10%;
+	}
+	
+	#Project1
+	{
+		flex: 1 1 400px;
+	}
+	
+	#Project1 h2
+	{
+		text-align: left;
+		font-size: 26px;
+	}
+	
+	
+	#Project2
+	{
+		flex: 1 1 400px; 
+	}
+	
+	#Project2 img
+	{
+		margin-top: 25px;
+	}
+	
+	#Project2 h2
+	{
+		text-align: left;
+		font-size: 26px;
+	}
+	
+	#Project2 p
+	{
+		line-height: 31px;
+	}
+	
+	#projects1-2 p
+	{
+		max-width: 400px;
+	}
+	
+	#read:hover
+	{
+		color: #efefef;
+		background-color: #95B04F;
+		padding: 5px;
+		border-bottom: 3px solid #D6A867;
+		border-radius: 5px;
+		font-weight: bold;
+	}
+	
+	#Archives
+	{
+		display: flex;
+/* 		max-width: 70%; */
+		margin-left: 10%;
+	}
+	
+	#projectArchives a
+	{
+		margin-left: 200px;
 	}
 	
 	
