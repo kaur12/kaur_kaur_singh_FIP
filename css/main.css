@@ -12,6 +12,8 @@ img, embed, object, video {
 img:hover
 {
 	box-shadow: 10px 10px 30px grey;
+	transform: scale(1.1);
+	transition: 0.8s;
 }
 
 
@@ -614,6 +616,26 @@ p
 	background: rgba(176,183,155, 0.5);
 	padding: 10px;	
 	color: #4A4A4A;
+}
+
+.lightboxBG
+{
+	position: absolute;
+	background-color: #000000;
+	top: 0px;
+	left: 0px;
+	opacity: 0.5;
+	display: none;
+	height: 100%;
+	width: 100%;
+}
+
+.lightboxImg1
+{
+	position: relative;
+	top: 25%;
+	left: 40%;
+	display: none;
 }
 
 
